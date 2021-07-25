@@ -6,17 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="css/stilo.css">
+
 </head>
 
 <body>
-    <div>
-        <h1>Produtos</h1>
+    <div class="product">
+        <h1>Cadastro de Produtos</h1>
     </div>
-    <div>
-        <input type="text" id="nome" placeholder="nome" />
-        <input type="text" id="email" placeholder="email" />
-        <input type="text" id="produto" placeholder="produto" />
-        <button id="bt-enviar" onclick="salvarForm()">Enviar</button>
+    <div class="conteiner">
+        <strong>
+        <p>Iserir dados:
+
+            <input type="text" id="nome" placeholder="nome" />
+            <input type="text" id="email" placeholder="email" />
+            <input type="text" id="produto" placeholder="produto" />
+            <input type="text" id="codigo" placeholder="codigo do produto" />
+            <button id="bt-enviar" onclick="salvarForm()">Enviar</button>
+
+        </p>
+    </strong>
     </div>
 
     <script src="script.js"></script>
